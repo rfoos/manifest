@@ -15,15 +15,9 @@ Openbenchmarks Development Manifest:
 
   <project name="openbenchmarks" path="openbenchmarks"/>
   <project remote="sourceforge" 
-           name="buildconf" path="openbenchmarks/buildconf"/>
+           name="buildconf" path="bc" />
   <project remote="oe" 
            name="meta-openembedded/meta-oe/recipes-benchmark" 
            path="openbenchmarks/recipes-benchmark"/>
-</manifest>
-
-
-<manifest>
-<project remote="sourceforge" 
-         name="buildconf" path="bc" />
 </manifest>
 
