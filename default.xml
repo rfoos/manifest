@@ -15,7 +15,7 @@ Openbenchmarks Development Manifest:
 
   <project name="openbenchmarks" path="openbenchmarks"/>
   <project remote="oe" 
-           name="meta-openembedded/meta-oe/recipes-benchmark" 
-           path="openbenchmarks/recipes-benchmark"/>
+           name="meta-openembedded" 
+           path="meta-oe"/>
 </manifest>
 
