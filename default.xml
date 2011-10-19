@@ -6,12 +6,13 @@ Openbenchmarks Development Manifest:
 </notice>
   <remote fetch="git@github.com:rickfoosusa" name="rickfoosusa"/>
   <remote fetch="git://buildconf.git.sourceforge.net/gitroot/buildconf/buildconf" name="buildconf"/>
+  <remote fetch="git://git.openembedded.org/" name="oe"/>
 
   <default remote="rickfoosusa" revision="master"/>
 
   <project name="openbenchmarks" path="openbenchmarks"/>
-  <project name="buildconf" path="openbenchmarks/buildconf"/>
-
+  <project remote="buildconf" name="buildconf" path="openbenchmarks/buildconf"/>
+  <project remote="oe" name="meta-openembedded/meta-oe/recipes-benchmark" path="openbenchmarks/recipes-benchmark"/>
 </manifest>
 
 
