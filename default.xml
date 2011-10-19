@@ -5,7 +5,7 @@ Openbenchmarks Development Manifest:
   Brings in openbenchmarks, meta-oe benchmarks, and buildconf. 
 </notice>
 <remote name="sourceforge"
-        fetch="git://buildconf.git.sourceforge.net/gitroot/buildconf/" />
+        fetch="git://buildconf.git.sourceforge.net/gitroot/buildconf" />
 <remote name="rickfoosusa"
         fetch="git@github.com:rickfoosusa" />
 <remote name="oe"
@@ -14,8 +14,6 @@ Openbenchmarks Development Manifest:
   <default remote="rickfoosusa" revision="master"/>
 
   <project name="openbenchmarks" path="openbenchmarks"/>
-  <project remote="sourceforge" 
-           name="buildconf" path="bc" />
   <project remote="oe" 
            name="meta-openembedded/meta-oe/recipes-benchmark" 
            path="openbenchmarks/recipes-benchmark"/>
