@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<notice>
+Openbenchmarks Manifest:
+  Brings Poky and Openbenchmarks together for recipe testing.
+  Check builds here will work on external sites.
+</notice>
+  <remote fetch="git@github.com:rickfoosusa" name="rickfoosusa"/>
+  <remote fetch="git://git.openembedded.org/" name="oe"/>
+  <remote fetch="https://github.com/kergoth/" name="kergoth"/>
+
+  <default remote="oe" revision="master"/>
+  <project name="bitbake" path="bitbake"/>
+  <project name="openembedded-core" path="oe-core"/>
+  <project name="meta-openembedded" path="meta-oe"/>
+
+  <project remote="kergoth" name="oe-repo-build" path="build" >
+    <copyfile dest="Makefile" src="repo.mk"/>
+  </project>
+
+  <project remote="rickfoosusa" name="openbenchmarks" path="openbenchmarks" revision="master"/>
+</manifest>
+
+
