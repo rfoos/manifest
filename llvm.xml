@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<notice>
+LLVM Build
+  Brings in llvm, clang, and compiler-rt for build. 
+</notice>
+<remote name="llvm"
+        fetch="http://llvm.org/git/" />
+
+  <default remote="llvm" revision="master"/>
+
+  <project name="llvm" path="llvm"/>
+  <project name="clang" path="llvm/tools/clang"/>
+  <project name="compiler-rt" path="llvm/projects/compiler-rt"/>
+</manifest>
+

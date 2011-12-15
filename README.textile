@@ -3,4 +3,13 @@ h1. Repo Manifests for rickfoosusa projects.
 Each project here, will have an associated repo manifest. Just an xml file
 with remotes, project names, revisions (branches), and local paths.
 
+h2. OpenEmbedded Core
+This is the new OE from Linux Foundation Poky project.
 
+h2. LLVM
+This produces a CLANG compiler from the LLVM project.
+http://clang.llvm.org/OpenProjects.html
+
+h2. Openbenchmarks Test Development
+This brings together the Openbenchmarks components for builds.
+ 
