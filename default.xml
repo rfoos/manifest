@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<notice>
-Openbenchmarks Development Manifest:
-  Brings in openbenchmarks, meta-oe benchmarks, and buildconf. 
-</notice>
-<remote name="sourceforge"
-        fetch="git://buildconf.git.sourceforge.net/gitroot/buildconf" />
-<remote name="rickfoosusa"
-        fetch="git@github.com:rickfoosusa" />
-<remote name="oe"
-        fetch="git://git.openembedded.org/" />
-
-  <default remote="rickfoosusa" revision="master"/>
-
-  <project name="openbenchmarks" path="openbenchmarks"/>
-  <project remote="oe" 
-           name="meta-openembedded" 
-           path="meta-oe"/>
+  <notice>
+    Openbenchmarks Development Manifest:
+    Brings in openbenchmarks, meta-oe benchmarks, and buildconf.
+  </notice>
+  <remote name="sourceforge" fetch="git://buildconf.git.sourceforge.net/gitroot/buildconf" />
+  <remote name="rfoos" fetch="git@github.com:rfoos" />
+  <remote name="oe" fetch="git://git.openembedded.org/" />
+  <default remote="rfoos" revision="refs/head/master" />
+  <project remote="rfoos" name="openbenchmarks" path="openbenchmarks" />
+  <project remote="oe" name="meta-openembedded" path="meta-oe" />
 </manifest>
-

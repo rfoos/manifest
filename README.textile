@@ -1,4 +1,4 @@
-h1. Repo Manifests for rickfoosusa projects.
+h1. Repo Manifests for rfoos projects.
 
 Each project here, will have an associated repo manifest. Just an xml file
 with remotes, project names, revisions (branches), and local paths.

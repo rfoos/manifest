@@ -5,7 +5,7 @@ Openbenchmarks Manifest:
   Brings Poky and Openbenchmarks together for recipe testing.
   Check builds here will work on external sites.
 </notice>
-  <remote fetch="git@github.com:rickfoosusa" name="rickfoosusa"/>
+  <remote fetch="git@github.com:rfoos" name="rfoos"/>
   <remote fetch="git://git.openembedded.org/" name="oe"/>
   <remote fetch="https://github.com/kergoth/" name="kergoth"/>
 
@@ -18,7 +18,7 @@ Openbenchmarks Manifest:
     <copyfile dest="Makefile" src="repo.mk"/>
   </project>
 
-  <project remote="rickfoosusa" name="openbenchmarks" path="openbenchmarks" revision="master"/>
+  <project remote="rfoos" name="openbenchmarks" path="openbenchmarks" revision="master"/>
 </manifest>
 
 
