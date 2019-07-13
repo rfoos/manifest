@@ -7,7 +7,7 @@
   <remote name="sourceforge" fetch="git://buildconf.git.sourceforge.net/gitroot/buildconf" />
   <remote name="rfoos" fetch="https://github.com/rfoos/" />
   <remote name="oe" fetch="git://git.openembedded.org/" />
-  <default remote="rfoos" revision="refs/head/master" />
+  <default remote="rfoos" revision="master" />
   <project remote="rfoos" name="openbenchmarks" path="openbenchmarks" />
   <project remote="oe" name="meta-openembedded" path="meta-oe" />
 </manifest>
